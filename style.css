@@ -1,0 +1,109 @@
+/*The list-style-type property
+===============================
+*/
+
+/*ul{
+	list-style-type: circle;
+	list-style-type: square;
+	list-style-image: url("../images/test.png");
+}
+
+ol{
+	list-style-type: upper-roman;
+	list-style-type: lower-roman;
+}*/
+
+/*CSS code for unordered list
+===============================
+*/
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: 2px solid grey;
+}
+
+ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid grey;
+}
+
+/*CSS code for ordered list
+===============================
+*/
+
+ol{
+	background:#ffeeee;
+	padding: 15px;
+}
+
+ol li{
+	background:#ffe5e5;
+	padding: 10px;
+	margin-left:30px;
+}
+
+/*CSS code for list with left border
+===============================
+*/
+
+/*ul {
+  border-left: 5px solid green;
+  background-color: #f1f1f1;
+  list-style-type: none;
+  padding: 15px 25px;
+  font-size: 20px;
+}*/
+
+/*CSS code for the first table
+===============================
+*/
+
+table {
+	border-collapse: collapse;
+}
+
+td, th{
+	border:1px solid #eee;
+	padding: 15px;
+}
+
+tbody tr:nth-child(odd){
+	background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even){
+	background-color: #e495e4;
+}
+
+
+div{
+	overflow: scroll;
+	background-color: #f27979;
+	width: 200px;
+	height: 200px;
+}
+
+
+/*CSS code for responsive table
+===============================
+*/
+
+
+
+/*table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {background-color: #eae2e2;}
+*/
+
+
+
